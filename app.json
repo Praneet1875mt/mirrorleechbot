@@ -1,0 +1,59 @@
+{
+    "name": "mirrorleechbot",
+    "description": "Music allow you to stream music trought the telegram voice chat feature.",
+    "keywords": ["Zaid", "Zaid-Vc-Player", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music"],
+    "repository": "https://github.com/Praneet1875mt/mirrorleechbot",
+  "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "fill with the pyrogram session string from account",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "fill with your telegram id as the owner of the bot",
+            "required": true,
+            "value": "Assistent1875bot"
+        },
+        "BOT_USERNAME": {
+            "description": "fill with telegram id of account",
+            "required": true,
+            "value": "videoplayerpraneetbot"
+        },
+        "API_ID": {
+            "description": "your Api ID from my.telegram.org/apps",
+            "required": true,
+            "value": "7028372"
+        },
+        "API_HASH": {
+            "description": "your Api Hash from my.telegram.org/apps",
+            "required": false,
+            "value": "10bc5c7771a121c180ab8859ab438bb8"
+        },
+        "GROUP_SUPPORT": {
+            "description": "Ur Support Group Username",
+            "required": false,
+            "value": ""
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Your Updates Channel",
+            "required": false,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "fill with the user id who can access all function in your bot (separate with space).",
+            "required": true,
+            "value": "1101776571"
+        },
+        "DURATION_LIMIT": {
+            "description": "filled, don't change this !",
+            "required": true,
+            "value": "540000"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": "5027556274:AAEs78T3PIfkmu2d80RZ17KqUihI1kAhtpE"
+        }
+
+    }
+  }
